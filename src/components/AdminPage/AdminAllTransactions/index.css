@@ -1,0 +1,132 @@
+.bg-container-2 {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+}
+.Transaction-Header-container-1 {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  height: 100px;
+  padding: 30px;
+  padding-top: 20px;
+  justify-content: space-between;
+
+  background: #fff;
+}
+.accounts-text {
+  color: #343c6a;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media screen and (max-width: 780px) {
+  .Transaction-Header-container {
+    padding: 15px 20px;
+  }
+
+  .accounts-text {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 780px) {
+  .Transaction-Header-container {
+    width: 100vw;
+  }
+}
+.all-transactions-ul-el {
+  margin: 30px;
+  margin-right: 50px;
+  display: flex;
+  padding: 16px 30px;
+  flex-direction: column;
+  align-items: flex-start;
+
+  border-radius: 25px;
+  background: #fff;
+  overflow: scroll;
+  height: 75vh;
+  padding-left: 0px;
+  width: 60vw;
+}
+.transaction-heading-container {
+  display: flex;
+
+  padding-left: 20px;
+  width: 100%;
+}
+.userName-text {
+  color: #343c6a;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ut {
+  width: 140px;
+  margin-left: 60px;
+}
+.Transaction-Name {
+  width: 120px;
+  margin-left: 90px;
+}
+.date-text {
+  width: 60px;
+  margin-left: 50px;
+}
+.Category-text {
+  width: 50px;
+  margin-left: 30px;
+}
+.amount-text {
+  width: 50px;
+  margin-left: 90px;
+}
+
+.product-details-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.error-view-image {
+  width: 300px;
+  height: 165px;
+}
+
+@media screen and (min-width: 768px) {
+  .error-view-image {
+    width: 540px;
+    height: 290px;
+  }
+}
+
+.product-not-found-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-not-found-heading {
+    font-size: 48px;
+  }
+}
+
+.products-details-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 80vh;
+}

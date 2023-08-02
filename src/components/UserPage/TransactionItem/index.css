@@ -1,0 +1,188 @@
+.all-trans-container-1 {
+  display: flex;
+  list-style-type: none;
+  border-top: 1px solid #e2e2e2;
+  align-items: center;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.name-logo-container-1 {
+  display: flex;
+  margin-left: 20px;
+}
+.cd-logo-1 {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+.type-text-1 {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: flex-start;
+  margin-left: 10px;
+  width: 140px;
+}
+.Spotify-text-1 {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100px;
+  margin-left: 40px;
+}
+.category-text-1 {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 60px;
+  margin-left: 10px;
+}
+.date-text-1 {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 60px;
+  width: 100px;
+}
+
+.green-1 {
+  color: #16dbaa;
+  text-align: right;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 50px;
+  width: 50px;
+}
+.red-2 {
+  color: #fe5c73;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 50px;
+  width: 50px;
+}
+
+.pencil-logo {
+  margin-left: 30px;
+}
+.trash-icon {
+  margin-left: 30px;
+}
+
+.pop-up-transaction-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  padding: 20px;
+}
+.pop-up-trans-container {
+  display: flex;
+  flex-direction: column;
+}
+.modal-heading-desc-text {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  margin-top: 0px;
+}
+.modal-desc-text {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.add-transfer-button {
+  display: flex;
+  width: 100%;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--primary-3, #2d60ff);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  color: #fff;
+  margin-top: 17px;
+}
+
+.add-transaction-div {
+  display: flex;
+  justify-content: space-between;
+}
+.modal-close-button {
+  padding: 8px 16px;
+
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+
+  background: #fff;
+
+  color: #333b69;
+  text-align: center;
+
+  /* text-sm / leading-5 / font-medium */
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  margin-left: 20px;
+}
+.add-transaction-text {
+  color: #333b69;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+}
+
+.trans-input-label {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.trans-input-div {
+  margin-top: 10px;
+}
+.trans-username-input-field {
+  width: 100%;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #dfeaf2;
+  background: #fff;
+  padding-left: 10px;
+  margin-top: 10px;
+  outline: none;
+}

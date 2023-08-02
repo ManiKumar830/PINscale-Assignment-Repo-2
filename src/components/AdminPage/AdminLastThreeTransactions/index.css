@@ -1,0 +1,88 @@
+.three-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+.type-text {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: flex-start;
+  margin-left: 10px;
+}
+.name-logo-container {
+  display: flex;
+  margin-left: 20px;
+}
+.cd-logo {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+.Spotify-text {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 100px;
+}
+.date-text {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 80px;
+}
+.red {
+  color: #fe5c73;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 50px;
+}
+.green {
+  color: #16dbaa;
+  text-align: right;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 50px;
+}
+@media screen and (max-width: 800px) {
+  .name-logo-container {
+    margin-left: 10px;
+  }
+
+  .type-text {
+    font-size: 13px;
+  }
+  .Spotify-text {
+    font-size: 13px;
+    margin-left: 20px;
+  }
+  .date-text {
+    margin-left: 20px;
+    font-size: 10px;
+  }
+  .red {
+    font-size: 13px;
+    margin-left: 20px;
+  }
+  .green {
+    font-size: 13px;
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,165 @@
+.bg-container-2 {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+}
+.Transaction-Header-container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  height: 100px;
+
+  justify-content: space-between;
+
+  background-color: #f5f7fa;
+}
+.tr-container-2 {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 20px;
+}
+
+.add-transaction {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 12px;
+  background: #2d60ff;
+  height: 45px;
+}
+.accounts-text-4 {
+  color: #343c6a;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.transaction-button {
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: transparent;
+  border: none;
+  align-self: center;
+}
+@media screen and (max-width: 780px) {
+  .Transaction-Header-container {
+    padding: 15px 20px;
+  }
+
+  .accounts-text {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 780px) {
+  .Transaction-Header-container {
+    width: 100vw;
+  }
+}
+
+.profile-container-el {
+  padding: 20px;
+}
+.profile-card-container {
+  width: 100%;
+  height: 584px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #fff;
+  padding: 30px;
+  height: 76vh;
+  display: flex;
+}
+.profile-image-1 {
+  border-radius: 50%;
+}
+.profile-text-1 {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.profile-text-value {
+  color: #718ebf;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 20vw;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #dfeaf2;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.profile-details-container-3 {
+  margin-left: 20px;
+}
+@media screen and (max-width: 780px) {
+  .profile-image-1 {
+    width: 60px;
+  }
+  .profile-text-value {
+    font-size: 14px;
+  }
+}
+
+.product-details-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.error-view-image {
+  width: 300px;
+  height: 165px;
+}
+
+@media screen and (min-width: 768px) {
+  .error-view-image {
+    width: 540px;
+    height: 290px;
+  }
+}
+
+.product-not-found-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-not-found-heading {
+    font-size: 48px;
+  }
+}
+
+.products-details-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 80vh;
+}

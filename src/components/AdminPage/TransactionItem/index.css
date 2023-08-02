@@ -1,0 +1,80 @@
+.all-trans-container-1 {
+  display: flex;
+  list-style-type: none;
+  border-top: 1px solid #e2e2e2;
+  align-items: center;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.name-logo-container-1 {
+  display: flex;
+  margin-left: 20px;
+}
+.cd-logo-1 {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+.type-text-1 {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: flex-start;
+  margin-left: 10px;
+  width: 140px;
+}
+.Spotify-text-1 {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 140px;
+  margin-left: 40px;
+}
+.category-text-1 {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 40px;
+  margin-left: 10px;
+}
+.date-text-1 {
+  color: #505887;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 60px;
+  width: 100px;
+}
+
+.green-1 {
+  color: #16dbaa;
+  text-align: right;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 10px;
+  width: 100px;
+}
+.red-2 {
+  color: #fe5c73;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 50px;
+  width: 100px;
+}

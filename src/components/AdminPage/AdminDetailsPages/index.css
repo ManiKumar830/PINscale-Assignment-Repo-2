@@ -1,0 +1,67 @@
+.dashboard-text {
+  color: #505887;
+
+  /* Heading three medium 18p */
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.dashboard-blue-text {
+  color: #2d60ff;
+
+  /* Heading three medium 18p */
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.li-el {
+  list-style-type: none;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.allTrans-text {
+  color: #505887;
+
+  /* Heading three medium 18p */
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.active_page {
+  color: #2d60ff;
+}
+.dashboard-container {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 10px;
+  padding-left: 30px;
+  background-color: transparent;
+  border: none;
+  margin-top: 0px;
+  height: 60px;
+}
+.button-blue {
+}
+.all-transactions-container {
+  display: flex;
+  margin-left: 15px;
+  background-color: transparent;
+  border: none;
+}
+.profile-container {
+  display: flex;
+  margin-left: 15px;
+  background-color: transparent;
+  border: none;
+}
+
+.link-el {
+  text-decoration: none;
+}

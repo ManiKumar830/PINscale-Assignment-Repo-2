@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/PINscale-Assignment-Repo-2/static/css/main.2c83bbbe.chunk.css",
+    "main.js": "/PINscale-Assignment-Repo-2/static/js/main.f69a3275.chunk.js",
+    "main.js.map": "/PINscale-Assignment-Repo-2/static/js/main.f69a3275.chunk.js.map",
+    "runtime-main.js": "/PINscale-Assignment-Repo-2/static/js/runtime-main.8c8453c7.js",
+    "runtime-main.js.map": "/PINscale-Assignment-Repo-2/static/js/runtime-main.8c8453c7.js.map",
+    "static/js/2.0af537ba.chunk.js": "/PINscale-Assignment-Repo-2/static/js/2.0af537ba.chunk.js",
+    "static/js/2.0af537ba.chunk.js.map": "/PINscale-Assignment-Repo-2/static/js/2.0af537ba.chunk.js.map",
+    "index.html": "/PINscale-Assignment-Repo-2/index.html",
+    "static/css/main.2c83bbbe.chunk.css.map": "/PINscale-Assignment-Repo-2/static/css/main.2c83bbbe.chunk.css.map",
+    "static/js/2.0af537ba.chunk.js.LICENSE.txt": "/PINscale-Assignment-Repo-2/static/js/2.0af537ba.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c8453c7.js",
+    "static/js/2.0af537ba.chunk.js",
+    "static/css/main.2c83bbbe.chunk.css",
+    "static/js/main.f69a3275.chunk.js"
+  ]
+}

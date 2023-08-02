@@ -1,0 +1,41 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 40vw;
+  height: 85vh;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #fff;
+
+  /* Shadow / lg */
+  box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+@media screen and (max-width: 908px) {
+  .modal-main-container {
+    width: 100vw;
+  }
+}
